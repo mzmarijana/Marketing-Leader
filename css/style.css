@@ -704,3 +704,78 @@ header a, a:visited {
     text-shadow: 0 0 20px #fff, 0 0 30px #183F8D, 0 0 40px #183F8D, 0 0 50px #183F8D, 0 0 60px #183F8D, 0 0 70px #183F8D, 0 0 80px #183F8D;
   }
 }
+
+
+@media (max-width: 980px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 580px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-default .navbar-nav li a {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .navbar-default .navbar-nav li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  #home {
+    height: 80vh;  /* Reduced height for smaller screens */
+  }
+}
+
+@media (max-width: 580px) {
+  #home {
+    height: 90vh;  /* Slightly larger height for small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .social-icon li {
+    display: inline-block;
+    margin: 0 5px;  /* Smaller margin for mobile */
+  }
+}
+
+@media (max-width: 580px) {
+  .social-icon li {
+    margin: 0 3px;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
